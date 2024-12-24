@@ -1,0 +1,57 @@
+@font-face {
+    font-family: UnifrakturCook;
+    src: url(font/UnifrakturCook-Bold.woff2);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-family: UnifrakturCook, cursive;
+    margin: 0;
+}
+
+#add-button{
+    display:flex;
+    align-items: center;
+    gap: 1em;
+    padding: 0.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+svg{
+    background-color: gray;
+    border-radius: 100%;
+}
+
+#add-book-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.book-shelf-container{
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul{
+    margin: 0;
+    padding-left: 1em;
+}
+
+.book-container{
+    padding: 2em;
+    border: solid 1px;
+    box-shadow: 8px 8px 3px;
+}
